@@ -9,9 +9,11 @@ package PracticalJava7thSem.constructor;
  * @author sushan
  */
 public class Sum {
+    //default contructor
   Sum(){
      System.out.println("I am default constructor");
  }   
+//  parameterized or contructor overloaring
   Sum(int a,int b){
       int sum= a+b;
       System.out.println("Sum is: "+sum);
