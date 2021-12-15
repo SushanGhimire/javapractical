@@ -1,13 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
+
 package PracticalJava7thSem.inheritance;
 
-/**
- *
- * @author sushan
- */
 public interface Multiple_inheritance {
     default void show(){
         System.out.println("Multiple_inheritance");
@@ -19,6 +12,7 @@ default void show(){
     }
  }
 class testing implements Multiple_inheritance,Multiple_inheritance2{
+    @Override
     public void show(){
         Multiple_inheritance.super.show();
         Multiple_inheritance2.super.show();
